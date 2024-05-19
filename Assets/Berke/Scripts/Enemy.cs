@@ -96,7 +96,7 @@ public class Enemy : MonoBehaviour
             if (coolDown <= 0)
             {
                 Debug.Log("Attacking");
-                //_player.GetComponent<Player>().TakeDamage(1);
+                _player.GetComponent<Player>().TakeDamage(1);
                 coolDown = attackCooldown;
             }
         }
