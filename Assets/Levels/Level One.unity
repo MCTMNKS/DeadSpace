@@ -32780,6 +32780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  health: 20
   animator: {fileID: 1499445051}
   rocketPrefab: {fileID: 6601385807068852547, guid: 26a435da9d6c0f14ab69c50faa0fc808, type: 3}
   spriteRenderer: {fileID: 1499445050}
